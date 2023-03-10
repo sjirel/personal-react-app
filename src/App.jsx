@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import Header from "./Header";
 import Maincontent from "./Maincontent";
+import Footer from "./Footer";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div id="wrapper-main">
       <Header />
       <Maincontent />
+      <Footer />
       {/* <div className="App">
         <div>
           <a href="https://vitejs.dev" target="_blank">
