@@ -1,7 +1,7 @@
 function PortraitSVG() {
   return (
     <svg
-      className="svg-animate svg-portrait test"
+      className="svg-animate svg-portrait"
       version="1.1"
       id="Layer_1"
       x="0px"

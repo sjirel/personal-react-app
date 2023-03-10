@@ -5,7 +5,7 @@ function Footer() {
       let pathlength = path.getTotalLength();
       path.style.strokeDasharray = pathlength;
       path.style.strokeDashoffset = pathlength;
-      path.style.strokeDashoffset = pathlength;
+      path.style.display = "block";
     });
   }
 
