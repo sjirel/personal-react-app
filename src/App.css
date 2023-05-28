@@ -439,7 +439,7 @@ p.title span.seperator {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 560px;
+  height: 420px;
   width: 100%;
   background-color: #1a1a1a;
   overflow: hidden;
@@ -555,6 +555,9 @@ h2.portfolio--title {
   }
   .portfolio--thumb {
     width: calc(100% - 20px);
+  }
+  .portfolio--thumb a {
+    height: 560px;
   }
   .portfolio--thumb a img {
     max-height: 120px;
