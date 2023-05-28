@@ -29,7 +29,7 @@ const Portfolio = () => {
         />
         <PortfolioItem
           portfolioname="TSMP Law Corporatiom"
-          img="/src/assets/tsmp-law.svg"
+          img={tsmpLogo}
           details="TSMP is Southeast Asia’s and Singapore’s top corporate boutique firm, specialising in complex litigation and cutting edge transactions."
           link="https://www.tsmplaw.com/"
         />
