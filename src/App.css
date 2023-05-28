@@ -45,7 +45,7 @@ h6 {
 }
 
 h1 {
-  font-size: 5.5vw;
+  font-size: 11vw;
   line-height: 0.86;
   margin-left: -5px;
   font-weight: 600;
@@ -470,7 +470,7 @@ h2.portfolio--title,
 
 h2.portfolio--title {
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 .portfolio--details_text {
@@ -516,9 +516,12 @@ h2.portfolio--title {
   }
 }
 @media (min-width: 576px) {
+  h1 {
+    font-size: 5.5vw;
+  }
   section.hero .banner-layer-1 {
-    width: 42vw;
-    margin-left: 5vw;
+    width: 62vw;
+    min-width: 370px;
   }
 }
 @media (min-width: 768px) {
@@ -538,6 +541,14 @@ h2.portfolio--title {
   }
 }
 @media (min-width: 992px) {
+  h1 {
+    font-size: 5.5vw;
+  }
+  h2.portfolio--title {
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
   .portfolio--item:nth-child(2n) .portfolio--details {
     right: -50px;
   }
@@ -563,6 +574,10 @@ h2.portfolio--title {
   }
 }
 @media (min-width: 1200px) {
+  section.hero .banner-layer-1 {
+    width: 42vw;
+    margin-left: 5vw;
+  }
   section.hero {
     height: initial;
     padding: 70px 0;
