@@ -1,7 +1,7 @@
 /*=Variables---------------------------------------------------------------------------*/
 :root {
   --black: rgb(0 0 0 / 42%);
-  --dark-black: #000;
+  --dark-black: #1a1a1a;
   --white: #ffffff;
 }
 
@@ -45,7 +45,7 @@ h6 {
 }
 
 h1 {
-  font-size: 5.8vw;
+  font-size: 5.5vw;
   line-height: 0.86;
   margin-left: -5px;
   font-weight: 600;
@@ -424,6 +424,9 @@ p.title span.seperator {
   position: relative;
   width: 100%;
   display: flex;
+}
+.portfolio--item:nth-child(2n + 1) {
+  margin-top: 100px;
 }
 .portfolio--item:nth-child(2n) {
   justify-content: flex-end;
