@@ -1,5 +1,9 @@
 import PortfolioItem from "./Portfolioitem";
 import scentifyHomeLogo from "./assets/scentify-logo.svg";
+import scentifyBusinessLogo from "./assets/scentify-business.svg";
+import wearelionLogo from "./assets/wearelion.svg";
+import tsmpLogo from "./assets/tsmp-law.svg";
+import selectGroupLogo from "./assets/select-group.png";
 
 const Portfolio = () => {
   return (
@@ -13,13 +17,13 @@ const Portfolio = () => {
         />
         <PortfolioItem
           portfolioname="Scentify Business"
-          img="./src/assets/scentify-business.svg"
+          img={scentifyBusinessLogo}
           details="Scentify business is an ecommerce store built with Shopify that offers high-quality scenting solution to business and public venues."
           link="https://scentifybusiness.com/"
         />
         <PortfolioItem
           portfolioname="We Are Lion"
-          img="/src/assets/wearelion.svg"
+          img={wearelionLogo}
           details="Wearelion.nyc is a digital web studio built with Wordpress. They specialize in online branding, custom web design and creative design"
           link="https://wearelion.nyc/"
         />
@@ -27,13 +31,13 @@ const Portfolio = () => {
           portfolioname="TSMP Law Corporatiom"
           img="/src/assets/tsmp-law.svg"
           details="TSMP is Southeast Asia’s and Singapore’s top corporate boutique firm, specialising in complex litigation and cutting edge transactions."
-          link="https://wearelion.nyc/"
+          link="https://www.tsmplaw.com/"
         />
         <PortfolioItem
           portfolioname="Select Group"
-          img="/src/assets/select-group.png"
+          img={selectGroupLogo}
           details="Select Group is a leading food service provider to people from all walks of life in Singapore for more than 25 years."
-          link="https://wearelion.nyc/"
+          link="https://group.select.com.sg/"
         />
       </div>
     </section>
