@@ -417,7 +417,7 @@ p.title span.seperator {
 .portfolio .container-fluid {
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0 14%;
+  padding: 0 10%;
 }
 .portfolio--item {
   margin: 0 0 150px;
@@ -433,7 +433,7 @@ p.title span.seperator {
 }
 .portfolio--thumb {
   position: relative;
-  width: calc(100% - 20px);
+  width: 100%;
 }
 .portfolio--thumb a {
   display: flex;
@@ -449,13 +449,13 @@ p.title span.seperator {
 }
 .portfolio--item:nth-child(2n) .portfolio--details {
   left: auto;
-  right: -50px;
+  right: -20px;
   text-align: right;
 }
 .portfolio--details {
   position: absolute;
   top: 10px;
-  left: -50px;
+  left: -20px;
   width: 222px;
   mix-blend-mode: difference;
 }
@@ -503,8 +503,8 @@ h2.portfolio--title {
 
   section.hero .banner-layer-3 {
     display: flex;
-    flex-direction: column-reverse;
-    margin: 20px 0 0 12%;
+    flex-direction: column;
+    margin: 20px 0 0 7%;
     align-self: flex-start;
   }
   .services {
@@ -539,6 +539,15 @@ h2.portfolio--title {
   }
 }
 @media (min-width: 992px) {
+  .portfolio--item:nth-child(2n) .portfolio--details {
+    right: -50px;
+  }
+  .portfolio--details {
+    left: -50px;
+  }
+  .portfolio .container-fluid {
+    padding: 0 10%;
+  }
   .portfolio--item {
     width: 50%;
   }
