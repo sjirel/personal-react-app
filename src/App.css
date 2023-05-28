@@ -446,6 +446,8 @@ p.title span.seperator {
 }
 .portfolio--thumb a img {
   filter: brightness(0) invert(1);
+  max-width: 70%;
+  max-height: 90px;
 }
 .portfolio--item:nth-child(2n) .portfolio--details {
   left: auto;
@@ -553,6 +555,9 @@ h2.portfolio--title {
   }
   .portfolio--thumb {
     width: calc(100% - 20px);
+  }
+  .portfolio--thumb a img {
+    max-height: 120px;
   }
 }
 @media (min-width: 1200px) {
