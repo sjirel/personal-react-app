@@ -437,7 +437,7 @@ p.title span.seperator {
 }
 .portfolio--thumb a {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   height: 420px;
   width: 100%;
@@ -448,6 +448,7 @@ p.title span.seperator {
   filter: brightness(0) invert(1);
   max-width: 70%;
   max-height: 90px;
+  margin-bottom: 30px;
 }
 .portfolio--item:nth-child(2n) .portfolio--details {
   left: auto;
@@ -466,10 +467,7 @@ h2.portfolio--title,
 .portfolio--link {
   color: #ffffff;
 }
-.portfolio--item:nth-child(2n + 1) .portfolio--details {
-  /* left: auto;
-  right: 0; */
-}
+
 h2.portfolio--title {
   font-weight: 900;
   font-size: 3rem;
@@ -478,8 +476,7 @@ h2.portfolio--title {
 .portfolio--details_text {
   margin-bottom: 0;
 }
-.portfolio--link {
-}
+
 #footer {
   position: absolute;
   width: 100%;
@@ -558,9 +555,11 @@ h2.portfolio--title {
   }
   .portfolio--thumb a {
     height: 560px;
+    align-items: center;
   }
   .portfolio--thumb a img {
     max-height: 120px;
+    margin: 0;
   }
 }
 @media (min-width: 1200px) {
