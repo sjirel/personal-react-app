@@ -417,7 +417,7 @@ p.title span.seperator {
 .portfolio .container-fluid {
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0 10%;
+  padding: 0 13%;
 }
 .portfolio--item {
   margin: 0 0 150px;
@@ -556,7 +556,7 @@ h2.portfolio--title {
     left: -50px;
   }
   .portfolio .container-fluid {
-    padding: 0 10%;
+    padding: 0 14%;
   }
   .portfolio--item {
     width: 50%;
