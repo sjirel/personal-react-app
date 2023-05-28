@@ -1,4 +1,5 @@
 import PortfolioItem from "./Portfolioitem";
+import scentifyHomeLogo from "./assets/scentify-logo.svg";
 
 const Portfolio = () => {
   return (
@@ -6,7 +7,7 @@ const Portfolio = () => {
       <div className="container-fluid d-flex flex-wrap">
         <PortfolioItem
           portfolioname="Scentify Home"
-          img="./src/assets/scentify-logo.svg"
+          img={scentifyHomeLogo}
           details="Scentify home is an ecommerce store built with Shopify that offers high-quality ambient scents and  diffusers for your home."
           link="https://scentifyhome.com/"
         />
