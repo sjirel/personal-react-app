@@ -5,7 +5,7 @@ export default function PortraitSVG() {
     let portraitPaths = document.querySelectorAll(".svg-animate .st0");
     const PortraitDraw = () => {
       portraitPaths.forEach((path) => {
-        console.log("testinh");
+        // console.log("testinh");
         let pathlength = path.getTotalLength();
         path.style.strokeDasharray = pathlength;
         path.style.strokeDashoffset = pathlength;

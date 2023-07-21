@@ -150,39 +150,24 @@ body {
   /* height: 100%; */
 }
 
-body.loading #header {
-  opacity: 0;
-  -webkit-transition: all 1s ease-in 4s;
-  -o-transition: all 1s ease-in 4s;
-  transition: all 1s ease-in 4s;
-}
-
-body.loading section.hero .anime-elem4 {
-  opacity: 0;
-  -webkit-transition: opacity 2s ease 4s;
-  -o-transition: opacity 2s ease 4s;
-  transition: opacity 2s ease 4s;
-}
-
-body.loading #page {
-  opacity: 0;
-  -webkit-transition: opacity 2s ease;
-  -o-transition: opacity 2s ease;
-  transition: opacity 2s ease;
-}
-
+body.loading #header,
+body.loading #page,
+body.loading section.hero .anime-elem4,
+body.loading .portfolio,
 body.loading #footer {
   opacity: 0;
-  -webkit-transition: all 1s ease-in 4s;
-  -o-transition: all 1s ease-in 4s;
-  transition: all 1s ease-in 4s;
 }
 
-#header {
+#header,
+.portfolio,
+section.hero .anime-elem4,
+#footer {
   opacity: 1;
-  -webkit-transition: all 1s ease-out 4s;
-  -o-transition: all 1s ease-out 4s;
-  transition: all 1s ease-out 4s;
+  -webkit-transition: all 1s ease-out 2.2s;
+  -o-transition: all 1s ease-out 2.2s;
+  transition: all 1s ease-out 2.2s;
+}
+#header {
   position: absolute;
   padding: 40px 0 0;
   z-index: 2;
@@ -342,9 +327,9 @@ html .svg-animate .st0 {
 
 #page {
   opacity: 1;
-  -webkit-transition: opacity 2s ease;
-  -o-transition: opacity 2s ease;
-  transition: opacity 2s ease;
+  -webkit-transition: opacity 1.5s ease;
+  -o-transition: opacity 1.5s ease;
+  transition: opacity 1.5s ease;
 }
 
 p.title {
@@ -481,10 +466,6 @@ h2.portfolio--title {
   position: absolute;
   width: 100%;
   bottom: 10px;
-  opacity: 1;
-  -webkit-transition: all 1s ease-out 4s;
-  -o-transition: all 1s ease-out 4s;
-  transition: all 1s ease-out 4s;
 }
 
 #footer .copyright {

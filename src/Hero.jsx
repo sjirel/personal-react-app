@@ -6,9 +6,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="container-fluid">
-        <div className="bg-animate">
-          <BackgroundSVG />
-        </div>
+        <div className="bg-animate">{/* <BackgroundSVG /> */}</div>
         <div className="banner-layer-1 anime-elem1">
           <PortraitSVG />
         </div>
