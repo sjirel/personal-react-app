@@ -117,18 +117,6 @@ img {
   width: auto;
 }
 
-@-webkit-keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
 @-webkit-keyframes opacity {
   0% {
     opacity: 0;
@@ -335,9 +323,21 @@ h1 span {
   position: relative;
 }
 
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 html .svg-animate .st0 {
-  -webkit-animation: dash 5s ease-out 1s 1 forwards;
-  animation: dash 5s ease-out 1s 1 forwards;
+  -webkit-animation: dash 7s ease-out 1s 1 forwards;
+  animation: dash 7s ease-out 1s 1 forwards;
 }
 
 #page {

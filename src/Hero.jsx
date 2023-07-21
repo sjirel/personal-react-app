@@ -3,23 +3,6 @@ import BackgroundSVG from "./BackgroundSVG";
 import PortraitSVG from "./PortraitSVG";
 
 const Hero = () => {
-  let portraitPaths = document.querySelectorAll(".svg-animate .st0");
-  const PortraitDraw = () => {
-    portraitPaths.forEach((path) => {
-      console.log("test");
-      let pathlength = path.getTotalLength();
-      path.style.strokeDasharray = pathlength;
-      path.style.strokeDashoffset = pathlength;
-      path.style.display = "block";
-    });
-  };
-
-  React.useEffect(
-    function () {
-      PortraitDraw();
-    },
-    [0]
-  );
   return (
     <section className="hero">
       <div className="container-fluid">

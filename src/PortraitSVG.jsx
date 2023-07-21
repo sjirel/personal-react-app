@@ -1,6 +1,19 @@
 import React from "react";
 
 export default function PortraitSVG() {
+  React.useEffect(function () {
+    let portraitPaths = document.querySelectorAll(".svg-animate .st0");
+    const PortraitDraw = () => {
+      portraitPaths.forEach((path) => {
+        console.log("testinh");
+        let pathlength = path.getTotalLength();
+        path.style.strokeDasharray = pathlength;
+        path.style.strokeDashoffset = pathlength;
+        path.style.display = "block";
+      });
+    };
+    PortraitDraw();
+  }, []);
   return (
     <svg
       className="svg-animate svg-portrait"
@@ -25,7 +38,7 @@ export default function PortraitSVG() {
           <g>
             <g>
               <path
-                className="st0"
+                className="st0 test-path"
                 stroke="#fff"
                 d="M433.7,75.1c0,0,31.7,19.3,43.6,42.4c11.9,23.2,16.2,26,17.7,27.7c1.4,1.7,6.5,10,6,14.1
                                             c0,0,2.6,3.3,0.7,8.1c0,0,6.2,1.9,5.3,25.1c0,0-0.2,7.6-1.4,7.4c-1.2-0.2,12.4,13.4,16,15c3.6,1.7,8.8,12.2,4.8,22.4
