@@ -1,15 +1,4 @@
 function Footer() {
-  let portraitPaths = document.querySelectorAll(".svg-animate .st0");
-  function portraitDraw() {
-    portraitPaths.forEach((path) => {
-      let pathlength = path.getTotalLength();
-      path.style.strokeDasharray = pathlength;
-      path.style.strokeDashoffset = pathlength;
-      path.style.display = "block";
-    });
-  }
-
-  portraitDraw();
   return (
     <footer id="footer">
       <div className="container-fluid">

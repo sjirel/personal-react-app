@@ -1,4 +1,6 @@
-function PortraitSVG() {
+import React from "react";
+
+export default function PortraitSVG() {
   return (
     <svg
       className="svg-animate svg-portrait"
@@ -624,5 +626,3 @@ function PortraitSVG() {
     </svg>
   );
 }
-
-export default PortraitSVG;
