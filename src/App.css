@@ -162,9 +162,9 @@ body.loading #footer {
 section.hero .anime-elem4,
 #footer {
   opacity: 1;
-  -webkit-transition: all 1s ease-out 2.2s;
-  -o-transition: all 1s ease-out 2.2s;
-  transition: all 1s ease-out 2.2s;
+  -webkit-transition: all 1s ease-out 3.2s;
+  -o-transition: all 1s ease-out 3.2s;
+  transition: all 1s ease-out 3.2s;
 }
 #header {
   width: 100%;
@@ -187,13 +187,13 @@ body.loading #header .logo:before {
   height: 26px;
   background: #000;
   display: block;
-  transition: width 1s cubic-bezier(0.63, 0.34, 0.57, 0.81) 2.3s;
+  transition: width 1s cubic-bezier(0.63, 0.34, 0.57, 0.81) 3.3s;
 }
 #header .logo span {
   color: #fff;
   padding-left: 1px;
   position: absolute;
-  top: 2px;
+  top: 1px;
   mix-blend-mode: difference;
   left: 7px;
 }
