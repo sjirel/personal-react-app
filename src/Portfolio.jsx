@@ -28,7 +28,7 @@ const Portfolio = () => {
           link="https://wearelion.nyc/"
         />
         <PortfolioItem
-          portfolioname="TSMP Law Corporatiom"
+          portfolioname="TSMP Law Corporation"
           img={tsmpLogo}
           details="TSMP is Southeast Asia’s and Singapore’s top corporate boutique firm, specialising in complex litigation and cutting edge transactions."
           link="https://www.tsmplaw.com/"
