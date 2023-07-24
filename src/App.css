@@ -194,7 +194,7 @@ body.loading #header .logo:before {
   color: #fff;
   padding-left: 1px;
   position: absolute;
-  top: 9px;
+  top: 4px;
   mix-blend-mode: difference;
   left: 7px;
   font-weight: 300;
@@ -531,7 +531,7 @@ h2.portfolio--title {
 }
 @media (min-width: 768px) {
   #header .logo span {
-    top: 12px;
+    top: 4px;
   }
   .container-fluid {
     padding-left: 40px;
