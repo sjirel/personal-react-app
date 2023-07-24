@@ -175,31 +175,34 @@ section.hero .anime-elem4,
 
 #header .logo {
   display: inline-block;
-  font: 20px "AkzidenzGrotesk-Medium", sans-serif;
+  font-size: 20px;
   position: relative;
+  line-height: 1;
 }
 body.loading #header .logo:before {
   width: 0;
+  height: 0;
 }
 #header .logo:before {
   content: "";
-  width: 29px;
+  width: 28px;
   height: 26px;
   background: #000;
   display: block;
-  transition: width 1s cubic-bezier(0.63, 0.34, 0.57, 0.81) 3.3s;
+  transition: all 1s cubic-bezier(0.63, 0.34, 0.57, 0.81) 3.3s;
 }
 #header .logo span {
   color: #fff;
   padding-left: 1px;
   position: absolute;
-  top: 1px;
+  top: 9px;
   mix-blend-mode: difference;
   left: 7px;
+  font-weight: 300;
 }
 
 .primary-nav {
-  font: 12px "AkzidenzGrotesk-Medium", sans-serif;
+  font-size: 12px;
   list-style-type: none;
 }
 
@@ -517,6 +520,7 @@ h2.portfolio--title {
   h1 {
     font-size: 5.5vw;
   }
+
   section.hero .banner-layer-1 {
     width: 62vw;
     min-width: 370px;
@@ -527,6 +531,9 @@ h2.portfolio--title {
   }
 }
 @media (min-width: 768px) {
+  #header .logo span {
+    top: 12px;
+  }
   .container-fluid {
     padding-left: 40px;
     padding-right: 40px;
@@ -535,7 +542,7 @@ h2.portfolio--title {
     font-size: 27px;
   }
   #header .logo:before {
-    width: 36px;
+    width: 35px;
     height: 34px;
   }
   .services {
@@ -543,7 +550,7 @@ h2.portfolio--title {
   }
   .primary-nav,
   #footer .copyright {
-    font: 14px "AkzidenzGrotesk-Medium", sans-serif;
+    font-size: 14px;
   }
 }
 @media (min-width: 992px) {
