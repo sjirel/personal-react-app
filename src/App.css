@@ -16,7 +16,6 @@ html {
 body {
   background-color: #ff605d;
   background-color: var(--white);
-  box-shadow: 0 0 150px rgba(0, 0, 0, 0.1) inset;
   color: #000000;
   font-size: 15px;
   font-family: "Inter", sans-serif;
@@ -168,22 +167,35 @@ section.hero .anime-elem4,
   transition: all 1s ease-out 2.2s;
 }
 #header {
-  position: absolute;
-  padding: 40px 0 0;
-  z-index: 2;
   width: 100%;
+  background-color: var(--white);
+  z-index: 2;
+  padding: 20px 0 0;
 }
 
 #header .logo {
   display: inline-block;
   font: 20px "AkzidenzGrotesk-Medium", sans-serif;
-  color: #ffffff;
-  text-shadow: 1px 1px 1px #00000026;
+  position: relative;
 }
-
+body.loading #header .logo:before {
+  width: 0;
+}
+#header .logo:before {
+  content: "";
+  width: 29px;
+  height: 26px;
+  background: #000;
+  display: block;
+  transition: width 1s cubic-bezier(0.63, 0.34, 0.57, 0.81) 2.3s;
+}
 #header .logo span {
-  color: #000000;
+  color: #fff;
   padding-left: 1px;
+  position: absolute;
+  top: 2px;
+  mix-blend-mode: difference;
+  left: 7px;
 }
 
 .primary-nav {
@@ -228,7 +240,7 @@ section.hero {
   display: flex;
   align-items: center;
   height: 100vh;
-  padding: 70px 0;
+  padding: 0 20px 50px;
 }
 section.hero .container-fluid {
   display: flex;
@@ -236,7 +248,8 @@ section.hero .container-fluid {
 }
 
 section.hero .banner-layer-1 {
-  width: 90vw;
+  width: 95vw;
+  margin-left: -115px;
 }
 
 section.hero .banner-layer-2 {
@@ -497,12 +510,20 @@ h2.portfolio--title {
   }
 }
 @media (min-width: 576px) {
+  #header {
+    position: absolute;
+    padding: 40px 0 0;
+  }
   h1 {
     font-size: 5.5vw;
   }
   section.hero .banner-layer-1 {
     width: 62vw;
     min-width: 370px;
+    margin-left: 0;
+  }
+  section.hero {
+    padding: 70px 0;
   }
 }
 @media (min-width: 768px) {
@@ -512,6 +533,10 @@ h2.portfolio--title {
   }
   #header .logo {
     font-size: 27px;
+  }
+  #header .logo:before {
+    width: 36px;
+    height: 34px;
   }
   .services {
     flex-direction: row;

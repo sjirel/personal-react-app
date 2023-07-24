@@ -3,8 +3,7 @@ function Header() {
     <header id="header">
       <div className="container-fluid d-flex justify-content-between align-items-center">
         <a href="/" className="logo">
-          {" "}
-          surendra<span>b</span>{" "}
+          <span>SB</span>
         </a>
         <nav className="primary-nav">
           <ul className="menu">
