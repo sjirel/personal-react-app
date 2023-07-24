@@ -181,7 +181,6 @@ section.hero .anime-elem4,
 }
 body.loading #header .logo:before {
   width: 0;
-  height: 0;
 }
 #header .logo:before {
   content: "";
@@ -189,7 +188,7 @@ body.loading #header .logo:before {
   height: 26px;
   background: #000;
   display: block;
-  transition: all 1s cubic-bezier(0.63, 0.34, 0.57, 0.81) 3.3s;
+  transition: width 1s cubic-bezier(0.63, 0.34, 0.57, 0.81) 3.3s;
 }
 #header .logo span {
   color: #fff;
