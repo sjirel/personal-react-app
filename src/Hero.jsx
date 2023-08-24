@@ -22,7 +22,7 @@ const Hero = () => {
             <span>budhathoki</span>
           </h1>
           <p className="intro">
-            I'm a front-end / shopify developer working for digital agencies
+            I'm a front-end/shopify developer working for digital agencies
             around the world. I've been developing online presences since 2009.
           </p>
         </div>
