@@ -212,6 +212,7 @@ body.loading #header .logo:before {
 
 .primary-nav li a {
   color: var(--black);
+
 }
 
 .primary-nav li:not(:first-child) {

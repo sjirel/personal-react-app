@@ -12,7 +12,7 @@ function Header() {
                 target="_blank"
                 href="https://www.upwork.com/freelancers/~0167e631f8f7a9ef23"
               >
-                upwork
+                Upwork
               </a>
             </li>
             <li>
@@ -20,7 +20,7 @@ function Header() {
                 target="_blank"
                 href="https://www.linkedin.com/in/surendra-budhathoki-9163444b/"
               >
-                linkedin
+                Linkedin
               </a>
             </li>
           </ul>

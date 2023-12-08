@@ -12,19 +12,19 @@ const Portfolio = () => {
         <PortfolioItem
           portfolioname="Scentify Home"
           img={scentifyHomeLogo}
-          details="Scentify home is an ecommerce store built with Shopify that offers high-quality ambient scents and  diffusers for your home."
+          details={["Scentify home is an ecommerce store built with ", <strong>Shopify</strong>, " that offers high-quality ambient scents and  diffusers for your home."]}
           link="https://scentifyhome.com/"
         />
         <PortfolioItem
           portfolioname="Scentify Business"
           img={scentifyBusinessLogo}
-          details="Scentify business is an ecommerce store built with Shopify that offers high-quality scenting solution to business and public venues."
+          details={["Scentify business is an ecommerce store built with ", <strong>Shopify</strong>, " that offers high-quality scenting solution to business and public venues."]}
           link="https://scentifybusiness.com/"
         />
         <PortfolioItem
           portfolioname="We Are Lion"
           img={wearelionLogo}
-          details="Wearelion.nyc is a digital web studio built with Wordpress. They specialize in online branding, custom web design and creative design"
+          details={["Wearelion.nyc is a digital web studio built with ",<strong>Wordpress</strong>,". They specialize in online branding, custom web design and creative design"]}
           link="https://wearelion.nyc/"
         />
         <PortfolioItem
