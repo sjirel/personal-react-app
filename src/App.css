@@ -527,7 +527,7 @@ h2.portfolio--title {
     margin-left: 0;
   }
   section.hero {
-    padding: 70px 0;
+    padding: 70px 0 ;
   }
 }
 @media (min-width: 768px) {
@@ -593,7 +593,7 @@ h2.portfolio--title {
   }
   section.hero {
     height: initial;
-    padding: 70px 0;
+    padding-top: 75px;
   }
   .services {
     font-size: 11px;

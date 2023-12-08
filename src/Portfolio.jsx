@@ -30,7 +30,7 @@ const Portfolio = () => {
         <PortfolioItem
           portfolioname="TSMP Law Corporation"
           img={tsmpLogo}
-          details="TSMP is Southeast Asia’s and Singapore’s top corporate boutique firm, specialising in complex litigation and cutting edge transactions."
+          details={["Built with ",<strong>Wordpress</strong>," TSMP is Southeast Asia’s and Singapore’s top corporate boutique firm, specialising in complex litigation and cutting edge transactions."]}
           link="https://www.tsmplaw.com/"
         />
         <PortfolioItem
