@@ -384,6 +384,8 @@ p.title {
 .intro {
   color: var(--dark-black);
   max-width: 630px;
+  line-height: 1.8;
+  font-size: 1.4rem;
 }
 p.title span.seperator {
   width: 3px;
@@ -414,7 +416,7 @@ p.title span.seperator {
 }
 
 .portfolio {
-  padding: 50px 0 150px;
+  padding: 0 0 150px;
 }
 .portfolio .container-fluid {
   justify-content: space-between;
@@ -500,7 +502,7 @@ h2.portfolio--title {
   section.hero .banner-layer-3 {
     display: flex;
     flex-direction: column;
-    margin: 20px 0 0 7%;
+    margin: 0 0 0 7%;
     align-self: flex-start;
   }
   .services {
@@ -545,6 +547,9 @@ h2.portfolio--title {
     width: 35px;
     height: 34px;
   }
+  .intro {
+    font-size: 1.5rem;
+  }  
   .services {
     flex-direction: row;
   }
