@@ -22,7 +22,7 @@ const Hero = () => {
             <span>budhathoki</span>
           </h1>
           <p className="intro">
-            I'm aa <strong>Front-End developer</strong> with a specialization in{" "}
+            I'm a <strong>Front-End developer</strong> with a specialization in{" "}
             <strong>Shopify</strong> and <strong>Wordpress</strong>. I have been
             developing online presences for agencies and clients{" "}
             <strong>around the world</strong> since <strong>2009</strong>. Over
