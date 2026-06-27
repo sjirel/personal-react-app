@@ -4,6 +4,9 @@ import reactLogo from "./assets/react.svg";
 import Header from "./Header";
 import Maincontent from "./Maincontent";
 import Footer from "./Footer";
+import CursorGlow from "./CursorGlow";
+import SmoothScroll from "./SmoothScroll";
+import "lenis/dist/lenis.css";
 import "./App.css";
 
 function App() {
@@ -16,6 +19,8 @@ function App() {
 
   return (
     <div id="page">
+      <SmoothScroll />
+      <CursorGlow />
       <Header />
       <Maincontent />
       <Footer />
