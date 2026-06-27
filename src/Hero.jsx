@@ -1,6 +1,7 @@
 import React from "react";
 import BackgroundSVG from "./BackgroundSVG";
 import PortraitSVG from "./PortraitSVG";
+// import StaggerText from "./StaggerText"; // text animations disabled
 
 const CAREER_START_YEAR = 2009;
 

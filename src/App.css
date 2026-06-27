@@ -408,6 +408,22 @@ p.title {
 .full--name span {
   font-weight: 300;
 }
+.stagger-word {
+  display: inline-block;
+  white-space: nowrap;
+}
+.stagger-char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(0.4em);
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.stagger-text.is-visible .stagger-char {
+  opacity: 1;
+  transform: translateY(0);
+}
 .intro {
   color: var(--dark-black);
   max-width: 630px;
@@ -473,12 +489,16 @@ p.title span.seperator {
   width: 100%;
   background-color: var(--yellow);
   overflow: hidden;
+  transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1), box-shadow 0.6s ease;
+  will-change: transform;
 }
 .portfolio--thumb a img {
   filter: brightness(0) invert(0);
   max-width: 200px;
   max-height: 90px;
   margin-bottom: 30px;
+  transition: transform 0.35s ease-out;
+  will-change: transform;
 }
 .portfolio--item:nth-child(2n) .portfolio--details {
   left: auto;
