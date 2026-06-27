@@ -2,7 +2,11 @@ import React from "react";
 import BackgroundSVG from "./BackgroundSVG";
 import PortraitSVG from "./PortraitSVG";
 
+const CAREER_START_YEAR = 2009;
+
 const Hero = () => {
+  const yearsInIndustry = new Date().getFullYear() - CAREER_START_YEAR;
+
   return (
     <section className="hero">
       <div className="container-fluid">
@@ -25,8 +29,8 @@ const Hero = () => {
             I'm a <strong>Front-End developer</strong> with a specialization in{" "}
             <strong>Shopify</strong> and <strong>Wordpress</strong>. I have been
             developing online presences for agencies and clients{" "}
-            <strong>around the world</strong> since <strong>2009</strong>. Over
-            the <strong>14 years</strong> in this industry, I have been crafting
+            <strong>around the world</strong> since <strong>{CAREER_START_YEAR}</strong>. Over
+            the <strong>{yearsInIndustry} years</strong> in this industry, I have been crafting
             visually appealing websites turning digital <strong>visions</strong>{" "}
             into seamless online <strong>realities</strong>.
           </p>
